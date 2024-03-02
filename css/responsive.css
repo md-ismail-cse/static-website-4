@@ -1,0 +1,124 @@
+/*==================================================
+			Bootstrap 3 Media Queries         
+==================================================*/
+
+
+/* Large Devices (Desktops & Laptops) */
+
+@media (min-width: 1200px) {
+    /* Ok */
+}
+
+@media (min-width: 1136px) and (max-width: 1305px) {
+    #site-nav-wrepper {
+        padding: 0;
+    }
+}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+@media (max-width: 1135px) {
+     #site-nav-wrepper {
+        padding: 0;
+    }
+    .navbar {
+        background: rgba(63, 81, 181, 0.7);
+        padding: 7px 0;
+        color: #fff;
+    }
+    .navbar .navbar-nav a{
+        color: #fff;
+    }
+    .navbar-nav {
+        float: none;
+        text-align: center;
+    }
+}
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav {
+        float: none;
+        text-align: center;
+    }
+    .about_col {
+        padding: 20px 0;
+    }
+    .project_col {
+        margin-bottom: 20px;
+    }
+    p.map_description,
+    p.client_description {
+        padding: 0;
+    }
+    input.scrb_text {
+        margin-right: 0;
+    }
+    
+}
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        float: none;
+        text-align: center;
+    }
+    .about_col {
+        padding: 20px 0;
+    }
+    .portfolio_all_btn {
+        left: 35%;
+    }
+    .project_col {
+        margin-bottom: 20px;
+    }
+    p.map_description,
+    p.client_description {
+        padding: 0;
+    }
+    .subscribe_section {
+        text-align: center;
+    }
+    form.subscribe_form {
+        float: none;
+    }
+    p.subscribe_description {
+        margin-bottom: 10px;
+    }
+    input.scrb_text {
+        margin: 0;
+    }
+    .contact_section [class*=col-] {
+        margin-bottom: 20px;
+        text-align: center;
+        border-bottom: 1px solid #dcdcdc;
+    }
+    .contact_social_links {
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media (max-width:640px) {
+  section {
+    background-attachment:initial;
+  }
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (max-width: 480px) {
+    /* Ok */
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (max-width: 320px) {
+    .portfolio-item {
+        height: 150px;
+    }
+    .portfolio_all_btn {
+        left: 15%;
+    }
+}
